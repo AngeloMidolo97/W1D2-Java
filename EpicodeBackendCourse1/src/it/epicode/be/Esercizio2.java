@@ -20,7 +20,7 @@ public class Esercizio2 {
 		
 		concat("Angelo", 5);
 		
-		array("Ciao2", nomi);
+		inserisciInArray("Ciao2", nomi);
 
 	}
 	
@@ -32,7 +32,7 @@ public class Esercizio2 {
 		System.out.println("Hello " + name + " the number is: " + y);
 	}
 	
-	static void array(String a, String[] nomi) {
+	static void inserisciInArray(String a, String[] nomi) {
 		String[] nomi2 = new String[6];
 		nomi2[0] = nomi[0];
 		nomi2[1] = nomi[1];
@@ -40,6 +40,7 @@ public class Esercizio2 {
 		nomi2[3] = nomi[2];
 		nomi2[4] = nomi[3];
 		nomi2[5] = nomi[4];
+		System.out.println( java.util.Arrays.toString(nomi) );
 		System.out.println( java.util.Arrays.toString(nomi2) );
 	}
 
