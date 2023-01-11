@@ -8,7 +8,9 @@ public class Main {
 		
 		System.out.println();
 		
-		Articolo a1 = new Articolo("A127B", "Tastiera", 15.99, 5);
+		Articolo a1 = new Articolo("A127A", "Tastiera", 25.99, 5);
+		Articolo a2 = new Articolo("A127B", "Mouse", 15.99, 5);
+		Articolo a3 = new Articolo("A127C", "iPhone", 1529.99, 5);
 		a1.dettagliArticolo();
 		
 		System.out.println();
