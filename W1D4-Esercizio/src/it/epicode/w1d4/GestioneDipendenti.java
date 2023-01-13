@@ -22,6 +22,7 @@ public class GestioneDipendenti {
 		
 		System.out.println(d1.getStipendio() + Dipendente.calcolaPagaStraordinario(d1, 5) + d2.getStipendio() + Dipendente.calcolaPagaStraordinario(d2, 5) + d3.getStipendio() + Dipendente.calcolaPagaStraordinario(d3, 5) + d4.getStipendio() + Dipendente.calcolaPagaStraordinario(d4, 5));
 		
+		d4.promuovi();
 	}
 
 }

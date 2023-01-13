@@ -90,7 +90,7 @@ public class Dipendente {
 			
 		} else {
 			
-			System.out.println("ERRORE: La promozione non puo essere applicata al dipendente " + getMatricola() );
+			System.out.println("ERRORE: La promozione non puo essere applicata al dipendente " + this.getMatricola() );
 			return this.livello;
 			
 		}
