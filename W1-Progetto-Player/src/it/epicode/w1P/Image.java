@@ -1,10 +1,10 @@
 package it.epicode.w1P;
 
-import java.util.Scanner;
 
 public class Image extends MediaPlayer implements Luminosita{
 	
 	private int luminosita;
+	int isImage = 0;
 
 	public Image(String titolo, int luminosita) {
 		super(titolo);

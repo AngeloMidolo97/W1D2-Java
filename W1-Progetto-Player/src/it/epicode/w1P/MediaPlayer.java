@@ -4,6 +4,7 @@ public abstract class MediaPlayer {
 	
 	private String titolo;
 	private int durata;
+	public int isImage;
 	
 	public int getDurata() {
 		return durata;
